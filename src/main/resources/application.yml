@@ -1,0 +1,13 @@
+
+server:
+  port: 8080
+banner: on
+spring:
+  banner:
+    location: banner.txt
+  main:
+    allow-bean-definition-overriding: true
+messages:
+  queue: test-queue
+  exchange: exchange
+  routing-key: key
